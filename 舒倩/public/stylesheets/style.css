@@ -1,0 +1,32 @@
+body {
+  font: 12px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+*{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+}
+a:link{
+  color: inherit;
+}
+.col-md-1{
+   border: solid 1px;
+   background: pink;
+}
+.col-md-4{
+  border: solid 1px;
+  background: lavenderblush;
+}
+.col-md-6{
+  border: solid 1px;
+  background: oldlace;
+}
+.col-md-8{
+  border: solid 1px;
+  background: papayawhip;
+}
