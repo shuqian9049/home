@@ -1,0 +1,118 @@
+body {
+  padding: 20px;
+  font: 12px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+*{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+}
+a:link{
+  color: inherit;
+}
+.header{
+  width: 100%;
+  height: 36px;
+  line-height: 36px;
+}
+.header ul{
+  float: right;
+}
+.header ul li{
+  float: left;
+  text-decoration: underline;
+  margin-right: 20px;
+  font-weight: bold;
+}
+.header ul li:hover{
+  color: #0055D6;
+  cursor: pointer;
+}
+.header ul li:nth-last-child(1){
+  padding:0 3px;
+  color: white;
+  background: #317EF3;
+  text-decoration: none;
+}
+.content{
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.content img{
+  width: 270px;
+  height: 129px;
+}
+.input{
+  width: 640px;
+  margin: 0 auto;
+  margin-bottom: 220px;
+}
+.con{
+  width: 540px;
+  height: 36px;
+  float: left;
+  border: 0;
+}
+.con input{
+  width: 540px;
+  height: 36px;
+  background: url("../images/xj.jpg") 510px 10px no-repeat;
+  border: 1px solid #999;
+  text-indent: 8px;/*首行缩进*/
+}
+.right{
+  width: 100px;
+  height: 36px;
+  line-height: 36px;
+  text-align: center;
+  color: white;
+  float: right;
+  background: #317EF3;
+}
+.cen{
+  width: 60px;
+  height: 100px;
+  line-height: 20px;
+  margin: 0 auto;
+  text-align: center;
+}
+.cen p{
+  color: #666666;
+}
+.footer{
+  width: 100%;
+  height: 46px;
+  margin-top: 15px;
+  text-align: center;
+}
+.footer a{
+  color: #999999;
+  margin-left:15px;
+  text-decoration: underline;
+}
+.footer p{
+  color: #999999;
+  margin-top: 5px;
+}
+.footer i{
+  font-style: normal;
+  text-decoration: underline;
+  margin-left: 5px;
+}
+.footer b{
+  font-weight: normal;
+}
+.footer p img{
+  margin-left: 3px;
+  vertical-align: middle;/*图片跟文字对齐*/
+}
+.footer p span{
+  margin-left: 20px;
+  text-decoration: underline;
+}
